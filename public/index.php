@@ -5,8 +5,8 @@ try {
     //Register an autoloader
     $loader = new \Phalcon\Loader();
     $loader->registerDirs(array(
-        '../app/controllers/',
-        '../app/models/'
+        '../apps/controllers/',
+        '../apps/models/'
     ))->register();
 
     //Create a DI
