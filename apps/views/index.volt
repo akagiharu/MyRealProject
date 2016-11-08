@@ -68,8 +68,8 @@
         <!-- um video para o fundo, ou seja, funcionará em vez de imagem, como um video -->
         <div class="frontbg"></div>
         <video autoplay muted loop id="bgvid">
-          <source src="http://mashop.com/media/myBG.mp4" />
-          <source src="http://mashop.com/media/myBG.ogv" />
+          <source src="http://daizgroup.com/media/myBG.mp4" />
+          <source src="http://daizgroup.com/media/myBG.ogv" />
         </video>
       </header>
 
