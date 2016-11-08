@@ -1,0 +1,365 @@
+/*
+    Local Fonts that Internet can't recognize are called here
+*/
+@font-face {
+  src: url('../fonts/Pacifico.woff');
+  font-family: 'Pacifico';
+}
+
+@font-face {
+  src: url('../fonts/Oswald-Regular.woff');
+  font-family: 'Oswald Regular';
+}
+
+@font-face {
+  src: url('../fonts/Oswald-Bold.woff');
+  font-family: 'Oswald Bold';
+}
+
+@font-face {
+  src: url('../fonts/Oswald-Light.woff');
+  font-family: 'Oswald Light';
+}
+/*
+    Change HTML itself and body tag
+*/
+body {
+  font-family: 'Oswald Light', sans-serif;
+}
+/*
+    Customize Navbar from "bootstrap.css"
+*/
+.navbar-brand {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 20pt;
+  background: linear-gradient(90deg, #ff5000, #000000);
+  background: -webkit-linear-gradient(90deg, #ff5000, #000000);
+  background: -moz-linear-gradient(90deg, #ff5000, #000000);
+  background: -o-linear-gradient(90deg, #ff5000, #000000);
+  background: -ms-linear-gradient(90deg, #ff5000, #000000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  -ms-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+}
+
+.navbar-nav > li > a.navbar-brand:hover {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 20pt;
+  background: linear-gradient(90deg, #ff5555, #ff5000);
+  background: -webkit-linear-gradient(90deg, #ff5555, #ff5000);
+  background: -moz-linear-gradient(90deg, #ff5555, #ff5000);
+  background: -o-linear-gradient(90deg, #ff5555, #ff5000);
+  background: -ms-linear-gradient(90deg, #ff5555, #ff5000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  -ms-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+}
+
+.navbar-default {
+  background: transparent  !important;
+  box-shadow: none  !important;
+  font-family: 'Oswald Bold', sans-serif;
+}
+
+.nav.navbar-nav.navbar-right a:hover {
+  background: linear-gradient(90deg, #ff5000, #000000);
+  background: -webkit-linear-gradient(90deg, #ff5000, #000000);
+  background: -moz-linear-gradient(90deg, #ff5000, #000000);
+  background: -o-linear-gradient(90deg, #ff5000, #000000);
+  background: -ms-linear-gradient(90deg, #ff5000, #000000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  -ms-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+}
+
+.navbar-nav > li > a:hover {
+  background: linear-gradient(90deg, #ff5000, #000000);
+  background: -webkit-linear-gradient(90deg, #ff5000, #000000);
+  background: -moz-linear-gradient(90deg, #ff5000, #000000);
+  background: -o-linear-gradient(90deg, #ff5000, #000000);
+  background: -ms-linear-gradient(90deg, #ff5000, #000000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  -ms-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+}
+
+  .navbar-nav > li.active {
+  	background-color: transparent!important;
+    color: #000;
+  }
+  .navbar-default .navbar-nav>.active>a {
+  	background: transparent;
+  	box-shadow: none!important;
+    color: #000;
+    background: linear-gradient(90deg, #ff5000, #000000);
+    background: -webkit-linear-gradient(90deg, #ff5000, #000000);
+    background: -moz-linear-gradient(90deg, #ff5000, #000000);
+    background: -o-linear-gradient(90deg, #ff5000, #000000);
+    background: -ms-linear-gradient(90deg, #ff5000, #000000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;}
+  }
+
+/*
+    Style my own buttons or links here without using bootstrap
+*/
+
+/*
+    Customize my own divs or anything else
+*/
+
+/* LOGIN */
+.login-logo {
+  font-family: 'Pacifico', sans-serif;
+  font-size: 20pt;
+  background: linear-gradient(90deg, #ff0000, #000000);
+  background: -webkit-linear-gradient(90deg, #ff0000, #000000);
+  background: -moz-linear-gradient(90deg, #ff0000, #000000);
+  background: -o-linear-gradient(90deg, #ff0000, #000000);
+  background: -ms-linear-gradient(90deg, #ff0000, #000000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  -ms-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  padding: 5px;
+  text-align: center;
+}
+
+.modal-body {
+  height: 500px!important;
+}
+
+.login {
+  width: 45%;
+  float: left;
+  border-right: 1px solid #e9e6e6;
+}
+
+.register {
+  width:50%;
+  float: left;
+}
+
+.register > h1, label, input[type=text],
+input[type=password], input[type=email],
+input[type="submit"] {
+margin-left: 15px;
+}
+
+/* VIDEO */
+video {
+  object-fit: contain;
+}
+
+
+video#bgvid {
+  transition: 1s opacity;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  overflow: hidden;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  /*background: url("../img/background.jpg") no-repeat;*/
+  background-size: cover;
+  -webkit-filter:saturate(0.01);
+  -moz-filter:saturate(0.01);
+  -o-filter:saturate(0.01);
+  -ms-filter:saturate(0.01);
+  filter: saturate(0.01);
+}
+
+/* HASH PAGES */
+.introduction-section, .about-section,
+.partners-section, .services-section,
+.contact-section {
+  text-align: center;
+  margin-top: 7%;
+  background-color: #e9e6e5!important;
+  background-size: cover!important;
+  padding: 5%!important;
+}
+
+.about-section, .about-section,
+.partners-section, .services-section,
+.contact-section {
+  margin-top: 25%;
+}
+
+.contact-section.contacts-form {
+  background-color: #e9e6e5!important;
+  background-size: cover!important;
+}
+
+.introduction-section > h1 {
+  text-align: center;
+  font-size: 36pt;
+  color: #000;
+}
+
+.explore.btn-explore {
+  list-style-type: none;
+}
+
+.explore.btn-explore > li > a {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 18px;
+  padding: 1.5%;
+  text-decoration: none;
+  color: #000;
+}
+
+.explore.btn-explore > li > a:hover {
+  background-color: #ff5000;
+  border: 1px solid #ff5000;
+  border-radius: 18px;
+  padding: 1.5%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.about-section > p {
+  text-align: justify;
+  -moz-text-align-last: center;
+  -webkit-text-align-last: center;
+  -o-text-align-last: center;
+  -ms-text-align-last: center;
+  text-align-last: center;
+}
+
+.about-section > blockquote {
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\201C""\201D";
+  border-left: none;
+}
+
+.about-section > blockquote:before {
+  color: #ccc;
+  margin: 1.5em 10px;
+  content: open-quote;
+  margin-right: -5px;
+  vertical-align: -0.4em;
+  font-size:  69pt;
+  line-height: 18pt;
+}
+
+.about-section > blockquote:after {
+  content: close-quote;
+  line-height: 18pt;
+  font-size: 69pt;
+  color: #ccc;
+  margin: 1.5em 10px;
+  margin-left: -4.5px;
+  vertical-align: -0.9em;
+}
+
+.shop-cart-service, .daizpay-service {
+  float: left;
+  width: 50%;
+}
+
+.contacts-form {
+  float: left;
+  width: 50%;
+}
+
+.contacts-form label {
+  text-align: justify;
+  margin-left: -185px;
+}
+
+.contacts-form > label.name-label,
+.contacts-form > label.email-label {
+  margin-left: -195px;
+}
+
+.contacts-form input[type=text],
+.contacts-form input[type=email] {
+  padding: 2%;
+  width: 45%;
+}
+
+.contacts-form textarea {
+  margin-left: 40px;
+}
+
+.contacts-form input[type=text],
+.contacts-form input[type=email] {
+  margin-left: 45px;
+}
+
+.contacts-form input[type=submit],
+.contacts-form input[type=reset] {
+  padding: 3%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 18px;
+}
+
+.contacts-form input[type=submit] {
+  margin-left: -95px;
+  background-color: #ff5000;
+  border: 1px solid #ff5000;
+  color: #fff;
+}
+
+.contacts-form input[type=submit]:hover {
+  margin-left: -95px;
+  background-color: #ff5555;
+  border: 1px solid #ff5555;
+  color: #fff;
+  box-shadow: -3px -3px 0px 0px #ff5000;
+}
+
+.contacts-form input[type=reset]:hover {
+  background-color: #ff5555;
+  border: 1px solid #ff5555;
+  color: #fff;
+  box-shadow: 3px 3px 0px 0px #ff5000;
+}
