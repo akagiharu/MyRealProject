@@ -1,6 +1,7 @@
+#mywebsite/.htaccess
 
 <IfModule mod_rewrite.c>
-	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteRule ^(.*)$ index.php?_url=/$1 [QSA,L]
+	RewriteEngine on
+	RewriteRule ^$ public/	[L]
+	RewriteRule (.*) public/$1	[L]
 </IfModule>
