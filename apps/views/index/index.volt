@@ -25,14 +25,14 @@
   <br clear="all">
   <div class="shop-cart-service">
     <figure>
-      <img src="http://mashop.com/img/shop-cart.png" width="35%" />
+      <img src="http://daizgroup.com/img/shop-cart.png" width="35%" />
       <h1>Online Shopping</h1>
       <figcaption>A easy way to shop with a better UI/UX for our clients</figcaption>
     </figure>
   </div>
   <div class="daizpay-service">
     <figure>
-      <img src="http://mashop.com/img/dayz-pay.png" width="35%" />
+      <img src="http://daizgroup.com/img/dayz-pay.png" width="35%" />
       <h1>Daiz Payment's Gateway</h1>
       <figcaption>A better way to do payments through our online shop</figcaption>
     </figure>
