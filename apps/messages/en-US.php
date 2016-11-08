@@ -24,5 +24,3 @@ $messages = array(
   "Reset" => "Reset",
   "About" => "About"
 );
-
-?>
